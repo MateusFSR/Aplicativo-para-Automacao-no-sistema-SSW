@@ -22,10 +22,10 @@ def coletas_cwb():
 
         # login
         pg.write('rvi')
-        pg.write('13524737986')
-        pg.write('mateusf')
+        pg.write('CPF') #Usuario digita seu CPF
+        pg.write('login') #Usuario digita seu login
         pg.press('tab')
-        pg.write('mateus21')
+        pg.write('senha') #Usuario digita sua senha
         pg.press('enter')
         pg.sleep(2.0)
 
@@ -114,10 +114,10 @@ def coletas_bnu():
 
         # login
         pg.write('rvi')
-        pg.write('13524737986')
-        pg.write('mateusf')
+        pg.write('CPF') #Usuario digita seu CPF
+        pg.write('login') #Usuario digita seu login
         pg.press('tab')
-        pg.write('mateus21')
+        pg.write('senha') #Usuario digita sua senha
         pg.press('enter')
         pg.sleep(2.0)
 
@@ -125,14 +125,14 @@ def coletas_bnu():
         pg.hotkey('shift', 'tab')
         pg.write('BNU')
         pg.click(x=189, y=195)
-        pg.write('103')
+        pg.write('103') 
         pg.sleep(0.8)
         pg.click(x=345, y=352)
         pg.sleep(1.2)
         pg.scroll(-300)
         pg.sleep(1.0)
 
-        # achar elemento
+        # Encontrar elemento
         element_location = pg.locateOnScreen('C:/Users/User/Desktop/Docs/Programas/Coletas/elementox.png', confidence=0.8)
         if element_location:
             # Obtenha as coordenadas do centro do elemento
