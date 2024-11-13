@@ -23,4 +23,4 @@ Python: Linguagem principal, escolhida por sua simplicidade e vasta biblioteca p
 WhatsApp Web: Integração via web para envio automatizado de relatórios em tempo real.
 
 ✅ Resultados e Benefícios
-O aplicativo gerou uma grande eficiência para a transportadora, eliminando as atividades manuais e reduzindo o tempo necessário para atualizar as planilhas e comunicar o status das coletas.
+O aplicativo gerou uma grande eficiência para a transportadora, eliminando as atividades manuais e reduzindo o tempo necessário para atualizar as planilhas e comunicar o status das coletas
